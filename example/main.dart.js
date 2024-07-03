@@ -14477,7 +14477,7 @@ o=p.gaH(p)
 a.clientX
 n=a.clientY
 p=p.gaH(p)
-this.c.Jc(r,a.buttons,C.bQ,-1,C.bS,q*o,n*p,1,1,0,m,l,C.mh,s)
+this.c.Jc(r,a.labelSmalls,C.bQ,-1,C.bS,q*o,n*p,1,1,0,m,l,C.mh,s)
 return r},
 tH:function(a){var s,r={},q=P.a3h(new H.QA(a))
 $.a1u.m(0,"wheel",q)
@@ -14541,7 +14541,7 @@ $1:function(a){return this.a.$1(t.cL.a(a))},
 $S:17}
 H.Po.prototype={
 $1:function(a){var s=a.pointerId,r=H.b([],t.I),q=this.a
-q.eX(r,q.ut(s).rC(a.button,a.buttons),a)
+q.eX(r,q.ut(s).rC(a.labelSmall,a.labelSmalls),a)
 q.b.$1(r)},
 $S:29}
 H.Pp.prototype={
@@ -14550,7 +14550,7 @@ for(s=new H.cm(n,n.gl(n));s.q();){r=s.d
 q.eX(o,r,a)}q.b.$1(o)},
 $S:29}
 H.Pn.prototype={
-$1:function(a){return this.a.kf(a.buttons)}}
+$1:function(a){return this.a.kf(a.labelSmalls)}}
 H.Pq.prototype={
 $1:function(a){var s,r=a.pointerId,q=H.b([],t.I),p=this.a,o=p.d.i(0,r)
 o.toString
@@ -14643,16 +14643,16 @@ $1:function(a){return this.a.$1(t.w0.a(a))},
 $S:17}
 H.OS.prototype={
 $1:function(a){var s=H.b([],t.I),r=this.a
-r.eX(s,r.d.rC(a.button,a.buttons),a)
+r.eX(s,r.d.rC(a.labelSmall,a.labelSmalls),a)
 r.b.$1(s)},
 $S:11}
 H.OT.prototype={
 $1:function(a){var s=H.b([],t.I),r=this.a
-r.eX(s,r.d.kf(a.buttons),a)
+r.eX(s,r.d.kf(a.labelSmalls),a)
 r.b.$1(s)},
 $S:11}
 H.OU.prototype={
-$1:function(a){var s,r=H.b([],t.I),q=a.buttons,p=this.a,o=p.d
+$1:function(a){var s,r=H.b([],t.I),q=a.labelSmalls,p=this.a,o=p.d
 if(q===0){q=o.rD()
 q.toString
 s=q}else s=o.kf(q)
@@ -42097,7 +42097,7 @@ C.wD=new X.vx("MaterialTapTargetSize.shrinkWrap")
 C.bL=new M.hE("MaterialType.canvas")
 C.lp=new M.hE("MaterialType.card")
 C.ox=new M.hE("MaterialType.circle")
-C.lq=new M.hE("MaterialType.button")
+C.lq=new M.hE("MaterialType.labelSmall")
 C.iA=new M.hE("MaterialType.transparency")
 C.wF=new H.eL("popRoute",null)
 C.n9=new U.Hi()

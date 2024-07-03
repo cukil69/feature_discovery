@@ -72,7 +72,7 @@ class Content extends StatelessWidget {
                   DefaultTextStyle(
                     style: Theme.of(context)
                         .textTheme
-                        .headline6!
+                        .titleMedium!
                         .copyWith(color: textColor),
                     child: title!,
                   ),
@@ -82,7 +82,7 @@ class Content extends StatelessWidget {
                   DefaultTextStyle(
                     style: Theme.of(context)
                         .textTheme
-                        .bodyText2!
+                        .bodySmall!
                         .copyWith(color: textColor.withOpacity(0.9)),
                     child: description!,
                   )
